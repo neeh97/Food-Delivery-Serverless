@@ -121,7 +121,7 @@ def fetch_word_cloud():
     }
     headers = {
         'content-type': "application/json",
-        'x-rapidapi-key': "a9379aa7b2mshc272c37706d5d11p1e740djsnc8634437f509",
+        'x-rapidapi-key': "API_KEY",
         'x-rapidapi-host': "textvis-word-cloud-v1.p.rapidapi.com"
     }
     response = requests.post(WORD_CLOUD_API, data=json.dumps(payload), headers=headers)
