@@ -1,0 +1,5 @@
+This project was done by a 4-man team as part of the coursework for the Serverless Data Processing course. This application is a food ordering and delivery system application.
+
+It utilizes several cloud services for performing the different features of the application. AWS Lex is used for the Chatbot, Google Cloud Run for hosting and deploying the application, AWS Cognito for user authentication, and WordCloud API and Google AutoML for analyzing user reviews.
+
+The front-end of the application is built using ReactJS and the back-end APIs are written in NodeJS.
