@@ -1,0 +1,64 @@
+table {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #4a4a4d;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+th,
+td {
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+thead {
+  background: #395870;
+  background: linear-gradient(#49708f, #293f50);
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+th:first-child {
+  border-top-left-radius: 5px;
+  text-align: left;
+}
+th:last-child {
+  border-top-right-radius: 5px;
+}
+tbody tr:nth-child(even) {
+  background: #f0f0f2;
+}
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+.item-name {
+  color: #395870;
+  font-weight: bold;
+}
+.description {
+  color: #7c7c80;
+  font-size: 14px;
+}
+.item-price {
+  text-align: right;
+}
+
+select {
+  text-align: center;
+  margin: 50px;
+  width: 200px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 34px;
+  text-align-last: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://cdn4.vectorstock.com/i/1000x1000/66/88/restaurant-menu-symbol-such-logo-food-cafe-vector-5046688.jpg)
+    96% / 15% no-repeat #eee;
+}
